@@ -1,7 +1,6 @@
 import { configDotenv } from "dotenv";
 
 //  1. MY DETAILS
-// ================================================================
 export const ME = {
   email: "hasnatbin1@gmail.com",
   phone: "+8801876387733",
@@ -20,9 +19,7 @@ export const ME = {
   ],
 }
 
-// ================================================================
 //  2. PROJECTS
-// ================================================================
 export const P = {
   blood: {
     n: "Blood Bridge",
@@ -77,18 +74,14 @@ export const P = {
   }
 };
 
-// ================================================================
 //  3. SKILLS
-// ================================================================
 export const SK = {
   Languages: ["C", "C++", "Python", "JavaScript", "TypeScript", "SQL"],
   Frontend: ["HTML", "CSS", "React", "Next.js", "Tailwind", "DaisyUI", "shadcn"], "Backend & Database": ["Node.js", "Express", "Prisma", "PostgreSQL", "MongoDB", "JWT",],
   "Tools & Platforms": ["Git", "GitHub", "Postman", "Vercel", "Firebase", "Colab"]
 };
 
-// ================================================================
 //  4. TEXT CONTENT: hero titles, about, education, experience
-// ================================================================
 
 export const ROLES = ['Junior Full Stack Developer', 'Junior Web Developer', 'MERN Stack Developer'];
 
